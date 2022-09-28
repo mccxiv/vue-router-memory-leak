@@ -1,9 +1,11 @@
 
 <template>
   <div>
-    <router-link to="/route1">Go to route 1</router-link>
+    <router-link to="/route1">Route 1 (el-input and 10k divs)</router-link>
     <br>
-    <router-link to="/route2">Go to route 2</router-link>
+    <router-link to="/route2">Route 2 (empty)</router-link>
+    <br>
+    <router-link to="/route3">Route 3 (10k divs, no components)</router-link>
   </div>
   <router-view></router-view>
 </template>
